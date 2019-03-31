@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="wifi_sta_server_test2" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049.1805515616" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.base.1358765767" name="cdt.managedbuild.toolchain.gnu.cygwin.base" superClass="cdt.managedbuild.toolchain.gnu.cygwin.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.Cygwin_PE" id="cdt.managedbuild.target.gnu.platform.cygwin.base.2080723337" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.cygwin.base"/>
+							<builder arguments="${IDF_PATH}/tools/windows/eclipse_make.py" command="python" id="cdt.managedbuild.target.gnu.builder.cygwin.base.1195045772" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.base.857386324" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.base">
+								<option id="gnu.both.asm.option.include.paths.539338829" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\freertos\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\driver\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\esp32\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\log\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\tcpip_adapter\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\nvs_flash\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\lwip\include\lwip&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\soc\esp32\include\soc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\openssl\include\openssl&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\mbedtls\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Administrator\workspace_cpp\wifi_sta_ap_server_test5\components\MQTTClient-C&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1235980746" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.245896211" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.407165566" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base">
+								<option id="gnu.cpp.compiler.option.include.paths.760350910" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\driver\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\esp32\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\log\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\tcpip_adapter\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\nvs_flash\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\lwip\include\lwip&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\soc\esp32\include\soc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Administrator\workspace_cpp\wifi_sta_ap_server_test5\components\MQTTClient-C&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.488967369" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1974534602" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base">
+								<option id="gnu.c.compiler.option.include.paths.223621255" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\freertos\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\driver\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\esp32\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\log\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\tcpip_adapter\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\nvs_flash\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\lwip\include\lwip&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\msys32\home\Administrator\esp\esp-idf\components\soc\esp32\include\soc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Administrator\workspace_cpp\wifi_sta_ap_server_test5\components\MQTTClient-C&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.434299613" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.base.1116120742" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base.145371226" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1736006590" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ledc.null.1981754661" name="ledc"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/ledc"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049;cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049.1805515616;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.407165566;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.488967369">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049;cdt.managedbuild.toolchain.gnu.cygwin.base.1387226049.1805515616;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1974534602;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.434299613">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="flash" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>python</buildCommand>
+				<buildArguments>${IDF_PATH}/tools/windows/eclipse_make.py</buildArguments>
+				<buildTarget>flash</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="erase_flash flash" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>python</buildCommand>
+				<buildArguments>${IDF_PATH}/tools/windows/eclipse_make.py</buildArguments>
+				<buildTarget>erase_flash flash</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Make Only" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>python</buildCommand>
+				<buildArguments>${IDF_PATH}/tools/windows/eclipse_make.py</buildArguments>
+				<buildTarget/>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>
