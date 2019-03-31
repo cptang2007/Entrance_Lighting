@@ -18,7 +18,7 @@ ipc.o: C:/msys32/home/Administrator/esp/esp-idf/components/esp32/ipc.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_err.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
@@ -99,7 +99,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

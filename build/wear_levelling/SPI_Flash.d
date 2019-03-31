@@ -5,7 +5,7 @@ SPI_Flash.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/features.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -44,7 +44,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/features.
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

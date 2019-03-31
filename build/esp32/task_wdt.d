@@ -24,7 +24,7 @@ task_wdt.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -122,7 +122,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

@@ -1,4 +1,4 @@
-main.o: V:/Backup/workspace_cpp/DoorWay_LED/main/main.c \
+main.o: V:/Backup/workspace_cpp/Entrace_Lighting/main/main.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdio.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/_ansi.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/newlib.h \
@@ -25,7 +25,7 @@ main.o: V:/Backup/workspace_cpp/DoorWay_LED/main/main.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -109,12 +109,12 @@ main.o: V:/Backup/workspace_cpp/DoorWay_LED/main/main.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.h
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/wifiFunction.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/httpServer.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -168,7 +168,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -336,7 +336,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_a
 
 C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
@@ -344,7 +344,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/wifiFunction.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.h:
-/v/Backup/workspace_cpp/DoorWay_LED/main/./main.c:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/httpServer.h:
+/v/Backup/workspace_cpp/Entrace_Lighting/main/./main.c:

@@ -14,7 +14,7 @@ xtensa_vector_defaults.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/simcall.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -51,7 +51,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/simcall
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

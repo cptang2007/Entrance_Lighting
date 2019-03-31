@@ -1,6 +1,6 @@
 intr_alloc.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/intr_alloc.c \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -65,7 +65,7 @@ intr_alloc.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_attr.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_intr_alloc.h
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h:
 

@@ -1,5 +1,6 @@
-nvsFucntion.o: V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFucntion.c \
- V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h \
+nvsFucntion.o: \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFucntion.c \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_system.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -22,7 +23,7 @@ nvsFucntion.o: V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFucntion.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h \
@@ -60,7 +61,7 @@ nvsFucntion.o: V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFucntion.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/rom/ets_sys.h
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_system.h:
 
@@ -106,7 +107,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -179,4 +180,4 @@ C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h:
 C:/msys32/home/Administrator/esp/esp-idf/components/log/include/esp_log.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
-/v/Backup/workspace_cpp/DoorWay_LED/main/./nvsFucntion.c:
+/v/Backup/workspace_cpp/Entrace_Lighting/main/./nvsFucntion.c:

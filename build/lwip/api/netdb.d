@@ -28,7 +28,7 @@ api/netdb.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stat.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_task.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -148,7 +148,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stat.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_task.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 

@@ -1,4 +1,4 @@
-memmem.o: V:/Backup/workspace_cpp/DoorWay_LED/main/memmem.c \
+memmem.o: V:/Backup/workspace_cpp/Entrace_Lighting/main/memmem.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/_ansi.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/newlib.h \
@@ -14,7 +14,7 @@ memmem.o: V:/Backup/workspace_cpp/DoorWay_LED/main/memmem.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/lock.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/str-two-way.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/str-two-way.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/limits.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h
@@ -49,11 +49,11 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/str-two-way.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/str-two-way.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/limits.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h:
-/v/Backup/workspace_cpp/DoorWay_LED/main/./memmem.c:
+/v/Backup/workspace_cpp/Entrace_Lighting/main/./memmem.c:

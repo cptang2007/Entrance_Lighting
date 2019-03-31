@@ -26,7 +26,7 @@ event_loop.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_wifi.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -145,7 +145,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

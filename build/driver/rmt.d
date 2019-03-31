@@ -22,7 +22,7 @@ rmt.o: C:/msys32/home/Administrator/esp/esp-idf/components/driver/rmt.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -125,7 +125,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/Fr
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

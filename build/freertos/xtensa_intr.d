@@ -25,7 +25,7 @@ xtensa_intr.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
@@ -100,7 +100,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

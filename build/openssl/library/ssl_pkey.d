@@ -9,7 +9,7 @@ library/ssl_pkey.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/internal/ssl_methods.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -60,7 +60,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/internal/ssl
 
 C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

@@ -31,7 +31,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/mem.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
@@ -147,7 +147,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

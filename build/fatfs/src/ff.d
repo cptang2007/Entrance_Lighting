@@ -3,7 +3,7 @@ src/ff.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/fatfs/src/ff.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/fatfs/src/integer.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/fatfs/src/ffconf.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/reent.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -80,7 +80,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/fatfs/src/integer.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/fatfs/src/ffconf.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

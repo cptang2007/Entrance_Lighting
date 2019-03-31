@@ -23,7 +23,7 @@ WL_Ext_Safe.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h \
@@ -84,7 +84,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdlib.h:
 

@@ -30,7 +30,7 @@ nghttp2/lib/nghttp2_queue.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.h:
@@ -93,7 +93,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/port/include/nghttp2/
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 /home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_queue.c:

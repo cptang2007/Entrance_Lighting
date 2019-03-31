@@ -15,7 +15,7 @@ clk.o: C:/msys32/home/Administrator/esp/esp-idf/components/esp32/clk.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_types.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/lock.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/types.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_attr.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/log/include/esp_log.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -70,7 +70,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/lock.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/types.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_attr.h:
 

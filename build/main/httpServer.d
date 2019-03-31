@@ -1,4 +1,4 @@
-httpServer.o: V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.c \
+httpServer.o: V:/Backup/workspace_cpp/Entrace_Lighting/main/httpServer.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdio.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/_ansi.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/newlib.h \
@@ -21,13 +21,13 @@ httpServer.o: V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/httpServer.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_system.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_err.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_deep_sleep.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/driver/include/driver/gpio.h \
@@ -105,10 +105,10 @@ httpServer.o: V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/err.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/memmem.c \
- V:/Backup/workspace_cpp/DoorWay_LED/main/str-two-way.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/html.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/memmem.c \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/str-two-way.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/html.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h
@@ -157,7 +157,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/machine/stdli
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/alloca.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/httpServer.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/httpServer.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_system.h:
 
@@ -169,7 +169,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_err.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 
@@ -325,17 +325,17 @@ C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/err.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/memmem.c:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/memmem.c:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/str-two-way.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/str-two-way.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/html.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/html.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/nvsFunction.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/nvsFunction.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/nvs_flash/include/nvs.h:
-/v/Backup/workspace_cpp/DoorWay_LED/main/./httpServer.c:
+/v/Backup/workspace_cpp/Entrace_Lighting/main/./httpServer.c:

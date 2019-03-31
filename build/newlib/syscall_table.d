@@ -38,7 +38,7 @@ syscall_table.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/vfs/include/esp_vfs.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_err.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/dirent.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/vfs/include/sys/dirent.h \
@@ -120,7 +120,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_err.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -43,7 +43,7 @@ nghttp2/lib/nghttp2_http.o: \
  C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
 
@@ -133,7 +133,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_c
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

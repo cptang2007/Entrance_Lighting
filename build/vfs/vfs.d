@@ -18,7 +18,7 @@ vfs.o: C:/msys32/home/Administrator/esp/esp-idf/components/vfs/vfs.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/errno.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/vfs/include/esp_vfs.h \
@@ -77,7 +77,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/string.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/assert.h:
 

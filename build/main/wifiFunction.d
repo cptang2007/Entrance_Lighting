@@ -1,4 +1,5 @@
-wifiFunction.o: V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.c \
+wifiFunction.o: \
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/wifiFunction.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/_ansi.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/newlib.h \
@@ -18,7 +19,7 @@ wifiFunction.o: V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h \
+ V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -110,7 +111,7 @@ wifiFunction.o: V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.c \
  C:/msys32/home/Administrator/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_event_loop.h \
  C:/msys32/home/Administrator/esp/esp-idf/components/log/include/esp_log.h \
- V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.h
+ V:/Backup/workspace_cpp/Entrace_Lighting/main/wifiFunction.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/string.h:
 
@@ -150,7 +151,7 @@ C:/msys32/home/Administrator/esp/esp-idf/components/newlib/include/sys/_intsup.h
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/include/sdkconfig.h:
+V:/Backup/workspace_cpp/Entrace_Lighting/build/include/sdkconfig.h:
 
 C:/msys32/home/Administrator/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -334,5 +335,5 @@ C:/msys32/home/Administrator/esp/esp-idf/components/esp32/include/esp_event_loop
 
 C:/msys32/home/Administrator/esp/esp-idf/components/log/include/esp_log.h:
 
-V:/Backup/workspace_cpp/DoorWay_LED/main/wifiFunction.h:
-/v/Backup/workspace_cpp/DoorWay_LED/main/./wifiFunction.c:
+V:/Backup/workspace_cpp/Entrace_Lighting/main/wifiFunction.h:
+/v/Backup/workspace_cpp/Entrace_Lighting/main/./wifiFunction.c:
