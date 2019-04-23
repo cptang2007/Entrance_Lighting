@@ -1,225 +1,225 @@
 Archive member included to satisfy reference by file (symbol)
 
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                               (call_start_cpu0)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_random_enable)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (esp_image_load)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_mmap)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (esp_log_timestamp)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o) (rtc_clk_slow_freq_get)
-V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_random_enable)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (esp_image_load)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_mmap)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (esp_log_timestamp)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o) (rtc_clk_slow_freq_get)
+V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
-                              V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o) (__udivdi3)
+                              V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o) (__udivdi3)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                    0x4               V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .xt.lit        0x00000000       0x98 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .xt.prop       0x00000000      0xac8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- COMMON         0x00000000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.lit        0x00000000       0x98 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.prop       0x00000000      0xac8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ COMMON         0x00000000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
  .rodata.str1.4
-                0x00000000        0x9 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .data.TAG      0x00000000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .xt.prop       0x00000000       0xd8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x00000000        0x9 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .data.TAG      0x00000000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .xt.prop       0x00000000       0xd8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
  .literal.esp_image_verify_bootloader
-                0x00000000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .rodata        0x00000000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x00000000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .rodata        0x00000000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .text.esp_image_verify_bootloader
-                0x00000000       0x32 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x00000000       0x48 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x00000000      0x648 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x00000000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x00000000       0xe4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x00000000       0x32 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x00000000       0x48 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x00000000      0x648 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x00000000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x00000000       0xe4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
  .literal.bootloader_flash_write
-                0x00000000       0x40 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x00000000       0x40 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
-                0x00000000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x00000000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x00000000       0xb2 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x00000000       0xb2 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
-                0x00000000       0x16 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x00000000       0x40 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x00000000      0x360 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .xt.prop       0x00000000      0x198 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x00000000       0x16 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x00000000       0x40 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x00000000      0x360 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .xt.prop       0x00000000      0x198 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .literal.esp_log_buffer_hex
-                0x00000000       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x00000000       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .literal.esp_log_buffer_char
-                0x00000000       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x00000000       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .rodata.str1.4
-                0x00000000       0x27 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x00000000       0x27 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .text.esp_log_buffer_hex
-                0x00000000       0x6b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x00000000       0x6b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .text.esp_log_buffer_char
-                0x00000000       0x5b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .xt.prop       0x00000000       0xf0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x00000000       0x5b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .xt.lit        0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .xt.prop       0x00000000       0xf0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .literal.spi_cache_mode_switch
-                0x00000000       0x38 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x38 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip_internal
-                0x00000000       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block_internal
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector_internal
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_enable_write
-                0x00000000       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_program_page_internal
-                0x00000000       0x24 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x24 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_lock
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_config_readmode
-                0x00000000       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip
-                0x00000000        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block
-                0x00000000       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector
-                0x00000000       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write
-                0x00000000       0x28 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x28 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write_encrypted
-                0x00000000       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_area
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.spi_cache_mode_switch
-                0x00000000      0x266 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000      0x266 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip_internal
-                0x00000000       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block_internal
-                0x00000000       0x3c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x3c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector_internal
-                0x00000000       0x44 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x44 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_enable_write
-                0x00000000       0x3d V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x3d V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_program_page_internal
-                0x00000000       0xee V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0xee V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_lock
-                0x00000000       0x4e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x4e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_config_readmode
-                0x00000000       0xa0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0xa0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .rodata.esp_rom_spiflash_config_readmode
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip
-                0x00000000       0x24 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x24 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block
-                0x00000000       0x66 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x66 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector
-                0x00000000       0x65 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x65 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write
-                0x00000000       0xca V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0xca V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write_encrypted
-                0x00000000       0x5a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0x5a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_area
-                0x00000000       0xbe V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .xt.lit        0x00000000       0xa8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .xt.prop       0x00000000      0xb1c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000       0xbe V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.lit        0x00000000       0xa8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.prop       0x00000000      0xb1c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .literal.rtc_clk_32k_bootstrap
-                0x00000000       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enabled
-                0x00000000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_8m_enabled
-                0x00000000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_8md256_enabled
-                0x00000000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_apll_enable
-                0x00000000       0x50 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x50 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_get_hz
-                0x00000000       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_get
-                0x00000000       0x28 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x28 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_value
-                0x00000000       0x2c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x2c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_bootstrap
-                0x00000000       0x3c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x3c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_enabled
-                0x00000000       0x1a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x1a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_8m_enabled
-                0x00000000       0x19 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x19 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_8md256_enabled
-                0x00000000       0x1a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x1a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_apll_enable
-                0x00000000      0x162 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000      0x162 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_slow_freq_get_hz
-                0x00000000       0x29 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x29 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_get
-                0x00000000       0x94 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x94 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_value
-                0x00000000       0x45 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x45 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_value
-                0x00000000       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .rodata.__func__$2152
-                0x00000000       0x17 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x17 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .rodata.__func__$2137
-                0x00000000       0x15 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .xt.lit        0x00000000       0xb8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .xt.prop       0x00000000      0x96c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x00000000       0x15 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .xt.lit        0x00000000       0xb8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .xt.prop       0x00000000      0x96c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cal
-                0x00000000        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .literal.rtc_time_us_to_slowclk
-                0x00000000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .literal.rtc_time_get
-                0x00000000       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
- .text          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
- .data          0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
- .bss           0x00000000        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .text          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .data          0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .bss           0x00000000        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .text.rtc_clk_cal
-                0x00000000       0x52 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000       0x52 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .text.rtc_time_us_to_slowclk
-                0x00000000       0x1f V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000       0x1f V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .text.rtc_time_slowclk_to_us
-                0x00000000       0x1c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000       0x1c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .text.rtc_time_get
-                0x00000000       0x50 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
- .xt.lit        0x00000000       0x28 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
- .xt.prop       0x00000000      0x210 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x00000000       0x50 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .xt.lit        0x00000000       0x28 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .xt.prop       0x00000000      0x210 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .data          0x00000000        0x0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .bss           0x00000000        0x0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .xt.lit        0x00000000        0x8 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
@@ -240,12 +240,12 @@ dram_seg         0x3fff0000         0x00010000         rw
 Linker script and memory map
 
 START GROUP
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/micro-ecc\libmicro-ecc.a
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a
-LOAD V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/micro-ecc\libmicro-ecc.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a
+LOAD V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a
 LOAD c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a
 LOAD c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib\libstdc++.a
 END GROUP
@@ -271,11 +271,11 @@ END GROUP
  *(.bss)
  *(.bss.*)
  .bss.ram_obfs_value
-                0x3fff0000        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .bss.mapped    0x3fff0008        0x1 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x3fff0000        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss.mapped    0x3fff0008        0x1 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  *fill*         0x3fff0009        0x3 
  .bss.words_hashed
-                0x3fff000c        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff000c        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x3fff0010                . = ALIGN (0x8)
@@ -286,7 +286,7 @@ END GROUP
  *(.data)
  *(.data.*)
  .data.current_read_mapping
-                0x3fff0010        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x3fff0010        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  *(.gnu.linkonce.d.*)
  *(.data1)
  *(.sdata)
@@ -301,38 +301,38 @@ END GROUP
 .dram0.rodata   0x3fff0014     0x1554
                 0x3fff0014                _rodata_start = ABSOLUTE (.)
  *(.rodata)
- .rodata        0x3fff0014       0x1c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+ .rodata        0x3fff0014       0x1c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x3fff0030      0x98e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x3fff0030      0x98e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *fill*         0x3fff09be        0x2 
  .rodata.__func__$3735
-                0x3fff09c0       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x3fff09c0       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .rodata.str1.4
-                0x3fff09d0      0x45a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff09d0      0x45a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x49a (size before relaxing)
  *fill*         0x3fff0e2a        0x2 
  .rodata.str1.4
-                0x3fff0e2c       0xfb V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x3fff0e2c       0xfb V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
  *fill*         0x3fff0f27        0x1 
  .rodata.str1.4
-                0x3fff0f28      0x28e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x3fff0f28      0x28e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  *fill*         0x3fff11b6        0x2 
  .rodata.str1.4
-                0x3fff11b8       0xd8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff11b8       0xd8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$2489
-                0x3fff1290       0x40 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff1290       0x40 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$2485
-                0x3fff12d0       0x19 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff12d0       0x19 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  *fill*         0x3fff12e9        0x3 
  .rodata.__func__$2465
-                0x3fff12ec       0x17 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff12ec       0x17 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  *fill*         0x3fff1303        0x1 
  .rodata.str1.4
-                0x3fff1304      0x200 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x3fff1304      0x200 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x1fd (size before relaxing)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x3fff1504       0x64 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x3fff1504       0x64 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
                 0x3fff1568                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
@@ -373,446 +373,446 @@ END GROUP
                 0x40078000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  .literal.wdt_reset_cpu0_info_enable
-                0x40078000        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078000        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .literal.wdt_reset_info_dump
-                0x40078004       0x60 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078004       0x60 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x6c (size before relaxing)
  .literal.print_flash_info
-                0x40078064       0x4c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078064       0x4c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x68 (size before relaxing)
  .literal.log_invalid_app_partition
-                0x400780b0        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400780b0        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x28 (size before relaxing)
  .literal.clock_configure
-                0x400780bc       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400780bc       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x20 (size before relaxing)
  .literal.uart_console_configure
-                0x400780d0       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400780d0       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x18 (size before relaxing)
  .literal.wdt_reset_check
-                0x400780e0        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400780e0        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x30 (size before relaxing)
  .literal.update_flash_config
-                0x400780ec       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400780ec       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .literal.ota_select_crc
-                0x4007810c        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4007810c        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .literal.ota_select_valid
-                0x40078110        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078110        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                   0x4 (size before relaxing)
  .literal.get_selected_boot_partition
-                0x40078110       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078110       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x70 (size before relaxing)
  .literal.try_load_partition
-                0x40078130        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078130        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x14 (size before relaxing)
  .literal.load_boot_image
-                0x40078134        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078134        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x3c (size before relaxing)
  .literal.set_cache_and_start_app
-                0x40078140       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078140       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x30 (size before relaxing)
  .literal.unpack_load_app
-                0x40078154       0x1c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078154       0x1c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x34 (size before relaxing)
  .literal.load_partition_table
-                0x40078170       0x40 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078170       0x40 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x84 (size before relaxing)
  .literal.bootloader_main
-                0x400781b0       0x2c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400781b0       0x2c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x9c (size before relaxing)
  .literal.__assert_func
-                0x400781dc        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400781dc        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x10 (size before relaxing)
  .literal.call_start_cpu0
-                0x400781e0       0x3c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400781e0       0x3c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x74 (size before relaxing)
  .literal.bootloader_fill_random
-                0x4007821c        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x4007821c        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
  .literal.bootloader_random_enable
-                0x40078224       0x70 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x40078224       0x70 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                                  0x78 (size before relaxing)
  .literal.bootloader_random_disable
-                0x40078294       0x1c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x40078294       0x1c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                                  0x4c (size before relaxing)
  .literal.should_map
-                0x400782b0        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782b0        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x10 (size before relaxing)
  .literal.verify_image_header
-                0x400782b0       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782b0       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x2c (size before relaxing)
  .literal.verify_segment_header
-                0x400782c4        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782c4        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x28 (size before relaxing)
  .literal.verify_checksum
-                0x400782d0        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782d0        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x1c (size before relaxing)
  .literal.verify_simple_hash
-                0x400782d4        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782d4        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x2c (size before relaxing)
  .literal.should_load
-                0x400782dc        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782dc        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x18 (size before relaxing)
  .literal.process_segment
-                0x400782e8       0x24 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400782e8       0x24 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x7c (size before relaxing)
  .literal.esp_image_load
-                0x4007830c       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x4007830c       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x6c (size before relaxing)
  .literal.esp_partition_table_basic_verify
-                0x40078320       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x40078320       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
                                  0x30 (size before relaxing)
  .literal.spi_to_esp_err
-                0x40078334        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40078334        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x4007833c       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x4007833c       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x4007834c        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x4007834c        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x4007834c       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x4007834c       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x40078360        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40078360        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x40078360        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40078360        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x30 (size before relaxing)
  .literal.bootloader_sha256_start
-                0x4007836c        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x4007836c        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .literal.bootloader_sha256_data
-                0x40078374       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x40078374       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                                  0x30 (size before relaxing)
  .literal.bootloader_sha256_finish
-                0x40078394       0x18 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x40078394       0x18 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                                  0x4c (size before relaxing)
  .literal.esp_log_early_timestamp
-                0x400783ac        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x400783ac        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .literal.esp_rom_spiflash_read_status
-                0x400783b4       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783b4       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x400783c4        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783c4        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                   0xc (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x400783cc       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783cc       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x400783dc        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783dc        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                   0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x400783e0        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783e0        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x400783e0        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783e0        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x28 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x400783ec       0x3c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x400783ec       0x3c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x5c (size before relaxing)
  .literal.rtc_clk_32k_enable_internal
-                0x40078428       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078428       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x14 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x40078438       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078438       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x30 (size before relaxing)
  .literal.rtc_clk_32k_enable
-                0x4007844c        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007844c        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x40078450       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078450       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_set
-                0x40078460        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078460        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_slow_freq_get
-                0x40078460        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078460        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x40078460        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078460        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x40078460        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078460        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_bbpll_set
-                0x40078460        0xc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078460        0xc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x30 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x4007846c        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007846c        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x1c (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x40078474        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078474        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x40078474        0x4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078474        0x4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_cpu_freq_set
-                0x40078478       0x2c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40078478       0x2c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x74 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x400784a4        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400784a4        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_init
-                0x400784a4       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400784a4       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x6c (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x400784c4       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400784c4       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x3c (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x400784e4        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400784e4        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
                                   0x8 (size before relaxing)
  .literal       0x400784e4        0x8 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .text.wdt_reset_cpu0_info_enable
-                0x400784ec       0x27 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400784ec       0x27 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *fill*         0x40078513        0x1 
  .text.wdt_reset_info_dump
-                0x40078514       0xe6 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078514       0xe6 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *fill*         0x400785fa        0x2 
  .text.print_flash_info
-                0x400785fc       0xee V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400785fc       0xee V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0xf2 (size before relaxing)
  *fill*         0x400786ea        0x2 
  .text.log_invalid_app_partition
-                0x400786ec       0x4c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400786ec       0x4c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x54 (size before relaxing)
  .text.clock_configure
-                0x40078738       0x7a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078738       0x7a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x82 (size before relaxing)
  *fill*         0x400787b2        0x2 
  .text.uart_console_configure
-                0x400787b4       0x36 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400787b4       0x36 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x3a (size before relaxing)
  *fill*         0x400787ea        0x2 
  .text.wdt_reset_check
-                0x400787ec       0xa2 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400787ec       0xa2 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0xae (size before relaxing)
  *fill*         0x4007888e        0x2 
  .text.update_flash_config
-                0x40078890       0x68 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078890       0x68 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .text.ota_select_crc
-                0x400788f8       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x400788f8       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .text.ota_select_valid
-                0x4007890c       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4007890c       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x24 (size before relaxing)
  .text.get_selected_boot_partition
-                0x4007892c      0x128 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4007892c      0x128 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                 0x134 (size before relaxing)
  .text.try_load_partition
-                0x40078a54       0x34 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078a54       0x34 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x38 (size before relaxing)
  .text.load_boot_image
-                0x40078a88       0x9b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078a88       0x9b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0xb3 (size before relaxing)
  *fill*         0x40078b23        0x1 
  .text.set_cache_and_start_app
-                0x40078b24       0xcf V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078b24       0xcf V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *fill*         0x40078bf3        0x1 
  .text.unpack_load_app
-                0x40078bf4       0xb2 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078bf4       0xb2 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0xb6 (size before relaxing)
  *fill*         0x40078ca6        0x2 
  .text.load_partition_table
-                0x40078ca8      0x160 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078ca8      0x160 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                 0x17c (size before relaxing)
                 0x40078ca8                load_partition_table
  .text.bootloader_main
-                0x40078e08      0x107 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078e08      0x107 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                 0x143 (size before relaxing)
                 0x40078e08                bootloader_main
  *fill*         0x40078f0f        0x1 
  .text.__assert_func
-                0x40078f10       0x1f V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078f10       0x1f V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x23 (size before relaxing)
                 0x40078f10                __assert_func
  *fill*         0x40078f2f        0x1 
  .text.call_start_cpu0
-                0x40078f30      0x124 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40078f30      0x124 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                 0x130 (size before relaxing)
                 0x40078f30                call_start_cpu0
  .text.bootloader_fill_random
-                0x40079054       0x59 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x40079054       0x59 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                 0x40079054                bootloader_fill_random
  *fill*         0x400790ad        0x3 
  .text.bootloader_random_enable
-                0x400790b0      0x1d5 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x400790b0      0x1d5 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                 0x400790b0                bootloader_random_enable
  *fill*         0x40079285        0x3 
  .text.bootloader_random_disable
-                0x40079288      0x11c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x40079288      0x11c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                 0x40079288                bootloader_random_disable
  .text.should_map
-                0x400793a4       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400793a4       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .text.verify_image_header
-                0x400793d4       0x7e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400793d4       0x7e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  *fill*         0x40079452        0x2 
  .text.verify_segment_header
-                0x40079454       0x71 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x40079454       0x71 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x79 (size before relaxing)
  *fill*         0x400794c5        0x3 
  .text.verify_checksum
-                0x400794c8       0x87 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400794c8       0x87 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x8f (size before relaxing)
  *fill*         0x4007954f        0x1 
  .text.verify_simple_hash
-                0x40079550       0x5b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x40079550       0x5b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x6a (size before relaxing)
  *fill*         0x400795ab        0x1 
  .text.should_load
-                0x400795ac       0x44 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400795ac       0x44 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                  0x48 (size before relaxing)
  .text.process_segment
-                0x400795f0      0x1bd V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400795f0      0x1bd V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x1d1 (size before relaxing)
  *fill*         0x400797ad        0x3 
  .text.esp_image_load
-                0x400797b0      0x231 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x400797b0      0x231 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x249 (size before relaxing)
                 0x400797b0                esp_image_load
  *fill*         0x400799e1        0x3 
  .text.esp_partition_table_basic_verify
-                0x400799e4       0xb1 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x400799e4       0xb1 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
                                  0xb5 (size before relaxing)
                 0x400799e4                esp_partition_table_basic_verify
  *fill*         0x40079a95        0x3 
  .text.spi_to_esp_err
-                0x40079a98       0x22 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079a98       0x22 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  *fill*         0x40079aba        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x40079abc       0x97 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079abc       0x97 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x9b (size before relaxing)
  *fill*         0x40079b53        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x40079b54       0x32 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079b54       0x32 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0x36 (size before relaxing)
  *fill*         0x40079b86        0x2 
  .text.bootloader_mmap
-                0x40079b88       0xb1 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079b88       0xb1 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                  0xb9 (size before relaxing)
                 0x40079b88                bootloader_mmap
  *fill*         0x40079c39        0x3 
  .text.bootloader_munmap
-                0x40079c3c       0x36 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079c3c       0x36 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                 0x40079c3c                bootloader_munmap
  *fill*         0x40079c72        0x2 
  .text.bootloader_flash_read
-                0x40079c74       0x86 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x40079c74       0x86 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                 0x40079c74                bootloader_flash_read
  *fill*         0x40079cfa        0x2 
  .text.bootloader_sha256_start
-                0x40079cfc       0x12 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x40079cfc       0x12 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                 0x40079cfc                bootloader_sha256_start
  *fill*         0x40079d0e        0x2 
  .text.bootloader_sha256_data
-                0x40079d10       0xa1 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x40079d10       0xa1 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                                  0xa9 (size before relaxing)
                 0x40079d10                bootloader_sha256_data
  *fill*         0x40079db1        0x3 
  .text.bootloader_sha256_finish
-                0x40079db4       0xdc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x40079db4       0xdc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                                  0xf0 (size before relaxing)
                 0x40079db4                bootloader_sha256_finish
  .text.esp_log_early_timestamp
-                0x40079e90       0x14 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x40079e90       0x14 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
                 0x40079e90                esp_log_early_timestamp
                 0x40079e90                esp_log_timestamp
  .text.esp_rom_spiflash_read_status
-                0x40079ea4       0x61 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x40079ea4       0x61 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                 0x40079ea4                esp_rom_spiflash_read_status
  *fill*         0x40079f05        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x40079f08       0x32 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x40079f08       0x32 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                 0x40079f08                esp_rom_spiflash_wait_idle
  *fill*         0x40079f3a        0x2 
  .text.esp_rom_spiflash_read_data
-                0x40079f3c       0xe2 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x40079f3c       0xe2 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  *fill*         0x4007a01e        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x4007a020       0x21 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a020       0x21 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                 0x4007a020                esp_rom_spiflash_read_statushigh
  *fill*         0x4007a041        0x3 
  .text.esp_rom_spiflash_write_status
-                0x4007a044       0x34 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a044       0x34 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x38 (size before relaxing)
                 0x4007a044                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x4007a078       0x6a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a078       0x6a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                  0x7e (size before relaxing)
                 0x4007a078                esp_rom_spiflash_unlock
  *fill*         0x4007a0e2        0x2 
  .text.esp_rom_spiflash_read
-                0x4007a0e4      0x284 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a0e4      0x284 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                 0x4007a0e4                esp_rom_spiflash_read
  .text.rtc_clk_32k_enable_internal
-                0x4007a368       0x81 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a368       0x81 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  *fill*         0x4007a3e9        0x3 
  .text.rtc_clk_xtal_freq_estimate
-                0x4007a3ec       0x8a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a3ec       0x8a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  *fill*         0x4007a476        0x2 
  .text.rtc_clk_32k_enable
-                0x4007a478       0x2d V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a478       0x2d V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a478                rtc_clk_32k_enable
  *fill*         0x4007a4a5        0x3 
  .text.rtc_clk_8m_enable
-                0x4007a4a8       0x9d V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a4a8       0x9d V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a4a8                rtc_clk_8m_enable
  *fill*         0x4007a545        0x3 
  .text.rtc_clk_slow_freq_set
-                0x4007a548       0x27 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a548       0x27 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a548                rtc_clk_slow_freq_set
  *fill*         0x4007a56f        0x1 
  .text.rtc_clk_slow_freq_get
-                0x4007a570       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a570       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a570                rtc_clk_slow_freq_get
  .text.rtc_clk_fast_freq_set
-                0x4007a580       0x2a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a580       0x2a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a580                rtc_clk_fast_freq_set
  *fill*         0x4007a5aa        0x2 
  .text.rtc_clk_fast_freq_get
-                0x4007a5ac       0x10 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a5ac       0x10 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                 0x4007a5ac                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_set
-                0x4007a5bc      0x154 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a5bc      0x154 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x15c (size before relaxing)
                 0x4007a5bc                rtc_clk_bbpll_set
  .text.rtc_clk_xtal_freq_get
-                0x4007a710       0x38 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a710       0x38 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x3c (size before relaxing)
                 0x4007a710                rtc_clk_xtal_freq_get
                 0x4007a710                rtc_get_xtal
  .text.rtc_clk_xtal_freq_update
-                0x4007a748       0x12 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a748       0x12 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x16 (size before relaxing)
                 0x4007a748                rtc_clk_xtal_freq_update
  *fill*         0x4007a75a        0x2 
  .text.rtc_clk_apb_freq_update
-                0x4007a75c       0x13 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a75c       0x13 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x16 (size before relaxing)
                 0x4007a75c                rtc_clk_apb_freq_update
  *fill*         0x4007a76f        0x1 
  .text.rtc_clk_cpu_freq_set
-                0x4007a770      0x1b4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a770      0x1b4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x1c4 (size before relaxing)
                 0x4007a770                rtc_clk_cpu_freq_set
  .text.rtc_clk_apb_freq_get
-                0x4007a924       0x13 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a924       0x13 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x16 (size before relaxing)
                 0x4007a924                rtc_clk_apb_freq_get
  *fill*         0x4007a937        0x1 
  .text.rtc_clk_init
-                0x4007a938      0x11e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007a938      0x11e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x13a (size before relaxing)
                 0x4007a938                rtc_clk_init
  *fill*         0x4007aa56        0x2 
  .text.rtc_clk_cal_internal
-                0x4007aa58      0x161 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x4007aa58      0x161 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  *fill*         0x4007abb9        0x3 
  .text.rtc_clk_cal_ratio
-                0x4007abbc       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x4007abbc       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x24 (size before relaxing)
                 0x4007abbc                rtc_clk_cal_ratio
  .text          0x4007abdc       0x26 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
                 0x4007abdc                __bswapsi2
  *fill*         0x4007ac02        0x2 
  .text.index_to_partition
-                0x4007ac04       0x48 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4007ac04       0x48 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  *fill*         0x4007ac4c        0x0 
  *fill*         0x4007ac4c        0x0 
  *fill*         0x4007ac4c        0x0 
@@ -848,11 +848,11 @@ END GROUP
  *fill*         0x4007ac4c        0x0 
  *fill*         0x4007ac4c        0x0 
  .text.clk_val_is_valid
-                0x4007ac4c       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007ac4c       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.reg_val_to_clk_val
-                0x4007ac6c        0x8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007ac6c        0x8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.clk_val_to_reg_val
-                0x4007ac74        0xe V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4007ac74        0xe V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  *fill*         0x4007ac82        0x0 
  *fill*         0x4007ac82        0x0 
  *fill*         0x4007ac82        0x0 
@@ -2682,137 +2682,137 @@ END GROUP
                 [!provide]                PROVIDE (UART2, 0x3ff6e000)
                 [!provide]                PROVIDE (SDMMC, 0x3ff68000)
                 0x40008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
-OUTPUT(V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader.elf elf32-xtensa-le)
 
 .debug_frame    0x00000000      0xa50
- .debug_frame   0x00000000      0x1f0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_frame   0x000001f0       0x58 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x00000248       0xe8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x00000330       0x28 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x00000358       0xd0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x00000428       0x58 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_frame   0x00000480       0x58 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_frame   0x000004d8      0x208 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x000006e0      0x280 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_frame   0x00000960       0xa0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_frame   0x00000000      0x1f0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_frame   0x000001f0       0x58 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_frame   0x00000248       0xe8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000330       0x28 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000358       0xd0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000428       0x58 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_frame   0x00000480       0x58 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_frame   0x000004d8      0x208 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x000006e0      0x280 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_frame   0x00000960       0xa0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_frame   0x00000a00       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_frame   0x00000a28       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_info     0x00000000     0x76dd
- .debug_info    0x00000000     0x265c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_info    0x0000265c      0x278 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_info    0x000028d4     0x11be V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_info    0x00003a92      0x381 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00003e13      0xc05 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x00004a18      0x44d V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x00004e65      0x2f6 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_info    0x0000515b      0xaf5 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x00005c50     0x1095 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_info    0x00006ce5      0x363 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_info    0x00000000     0x265c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_info    0x0000265c      0x278 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x000028d4     0x11be V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00003a92      0x381 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00003e13      0xc05 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00004a18      0x44d V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x00004e65      0x2f6 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_info    0x0000515b      0xaf5 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x00005c50     0x1095 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_info    0x00006ce5      0x363 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_info    0x00007048       0xcd c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_info    0x00007115      0x5c8 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x00000000     0x174f
- .debug_abbrev  0x00000000      0x49e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_abbrev  0x0000049e      0x126 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x000005c4      0x2a4 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x00000868      0x16c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x000009d4      0x22f V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x00000c03      0x17d V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_abbrev  0x00000d80      0x15a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_abbrev  0x00000eda      0x22e V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x00001108      0x326 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_abbrev  0x0000142e      0x162 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_abbrev  0x00000000      0x49e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_abbrev  0x0000049e      0x126 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x000005c4      0x2a4 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x00000868      0x16c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x000009d4      0x22f V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x00000c03      0x17d V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_abbrev  0x00000d80      0x15a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_abbrev  0x00000eda      0x22e V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x00001108      0x326 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x0000142e      0x162 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_abbrev  0x00001590       0x60 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_abbrev  0x000015f0      0x15f c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_loc      0x00000000     0x4219
- .debug_loc     0x00000000      0xee8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_loc     0x00000ee8       0x91 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x00000f79      0xac8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x00001a41      0x116 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x00001b57      0x638 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x0000218f      0x135 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x000022c4       0xc2 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_loc     0x00002386      0xa20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x00002da6      0x8a0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_loc     0x00003646      0x1ca V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_loc     0x00000000      0xee8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_loc     0x00000ee8       0x91 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x00000f79      0xac8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00001a41      0x116 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00001b57      0x638 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000218f      0x135 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x000022c4       0xc2 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_loc     0x00002386      0xa20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x00002da6      0x8a0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_loc     0x00003646      0x1ca V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_loc     0x00003810       0x21 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_loc     0x00003831      0x9e8 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x00000000      0x450
  .debug_aranges
-                0x00000000       0xb8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x00000000       0xb8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_aranges
-                0x000000b8       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+                0x000000b8       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x000000e8       0x60 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x000000e8       0x60 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x00000148       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x00000148       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x00000168       0x58 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x00000168       0x58 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x000001c0       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x000001c0       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .debug_aranges
-                0x000001f0       0x30 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+                0x000001f0       0x30 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
  .debug_aranges
-                0x00000220       0xc0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000220       0xc0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x000002e0       0xe8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x000002e0       0xe8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x000003c8       0x48 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x000003c8       0x48 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_aranges
                 0x00000410       0x20 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_aranges
                 0x00000430       0x20 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_ranges   0x00000000      0x448
- .debug_ranges  0x00000000       0xc0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_ranges  0x000000c0       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x000000e0       0x68 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000148       0x28 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x00000170       0x48 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x000001b8       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_ranges  0x000001d8       0x20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_ranges  0x000001f8       0xb0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x000002a8      0x108 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_ranges  0x000003b0       0x38 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_ranges  0x00000000       0xc0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_ranges  0x000000c0       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_ranges  0x000000e0       0x68 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000148       0x28 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x00000170       0x48 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x000001b8       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_ranges  0x000001d8       0x20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_ranges  0x000001f8       0xb0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x000002a8      0x108 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_ranges  0x000003b0       0x38 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_ranges  0x000003e8       0x60 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_line     0x00000000     0x4632
- .debug_line    0x00000000      0xe20 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .debug_line    0x00000e20      0x398 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000011b8      0xa48 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_line    0x00001c00      0x302 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_line    0x00001f02      0x5a1 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x000024a3      0x3e0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x00002883      0x2d6 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .debug_line    0x00002b59      0xae0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x00003639      0xa74 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_line    0x000040ad      0x36c V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_line    0x00000000      0xe20 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_line    0x00000e20      0x398 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000011b8      0xa48 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00001c00      0x302 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00001f02      0x5a1 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000024a3      0x3e0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x00002883      0x2d6 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .debug_line    0x00002b59      0xae0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x00003639      0xa74 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_line    0x000040ad      0x36c V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .debug_line    0x00004419       0x8a c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .debug_line    0x000044a3      0x18f c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .debug_str      0x00000000     0x2345
- .debug_str     0x00000000      0xecc V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_str     0x00000000      0xecc V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                 0xf9b (size before relaxing)
- .debug_str     0x00000ecc       0xe6 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_str     0x00000ecc       0xe6 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
                                 0x251 (size before relaxing)
- .debug_str     0x00000fb2      0x2e8 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_str     0x00000fb2      0x2e8 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x9f3 (size before relaxing)
- .debug_str     0x0000129a       0x73 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_str     0x0000129a       0x73 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
                                 0x3af (size before relaxing)
- .debug_str     0x0000130d      0x228 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_str     0x0000130d      0x228 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
                                 0x5ae (size before relaxing)
- .debug_str     0x00001535      0x105 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_str     0x00001535      0x105 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
                                 0x2dd (size before relaxing)
- .debug_str     0x0000163a       0xf6 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
+ .debug_str     0x0000163a       0xf6 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
                                 0x2a9 (size before relaxing)
- .debug_str     0x00001730      0x4af V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_str     0x00001730      0x4af V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
                                 0x772 (size before relaxing)
- .debug_str     0x00001bdf      0x418 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_str     0x00001bdf      0x418 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x7ee (size before relaxing)
- .debug_str     0x00001ff7      0x138 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_str     0x00001ff7      0x138 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
                                 0x373 (size before relaxing)
  .debug_str     0x0000212f      0x13a c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
                                 0x1e0 (size before relaxing)
@@ -2820,30 +2820,30 @@ OUTPUT(V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader.elf elf32
                                 0x25a (size before relaxing)
 
 .comment        0x00000000       0x3a
- .comment       0x00000000       0x3a V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
+ .comment       0x00000000       0x3a V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x3b (size before relaxing)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .comment       0x0000003a       0x3b V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .comment       0x0000003a       0x3b c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .comment       0x0000003a       0x3b c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x00000000       0x38
- .xtensa.info   0x00000000       0x38 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/main\libmain.a(bootloader_start.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/log\liblog.a(log.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/DoorWay_LED/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .xtensa.info   0x00000000       0x38 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/log\liblog.a(log.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .xtensa.info   0x00000038        0x0 V:/Backup/workspace_cpp/Entrace_Lighting/build/bootloader/soc\libsoc.a(rtc_time.o)
  .xtensa.info   0x00000038        0x0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_bswapsi2.o)
  .xtensa.info   0x00000038        0x0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0\libgcc.a(_udivdi3.o)

@@ -8,15 +8,15 @@
 #define AP_STA_COMPLETED_BIT 		BIT3
 
 //WiFi
-#define AP_STA						1
+#define AP_STA						1	//1 for AP mode, 0 for STA Mode
 
 //AP CONFIG
-#define CONFIG_AP_SSID 				"ESP32_DoorWay_LED"
-#define CONFIG_AP_PASSWORD 			"11111111"	//Password need 8 digits
-#define CONFIG_AP_CHANNEL 			1
+#define CONFIG_AP_SSID 				"ESP32_Entrance_Lighting"
+#define CONFIG_AP_PASSWORD 			"11111111"					//Password need 8 digits
+#define CONFIG_AP_CHANNEL 			8
 #define CONFIG_AP_AUTHMODE 			WIFI_AUTH_WPA2_PSK
 #define CONFIG_AP_MAX_CONNECTIONS 	1
-#define CONFIG_AP_BEACON_INTERVAL 	10
+#define CONFIG_AP_BEACON_INTERVAL 	100
 #define CONFIG_AP_SSID_HIDDEN 		0
 #define AP_IP 						"192.168.10.1"
 

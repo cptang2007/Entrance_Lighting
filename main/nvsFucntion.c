@@ -1,7 +1,6 @@
 #include "nvsFunction.h"
 #include "esp_log.h"
 
-
 void nvs_init(void) {
 
 	// Initialize NVS
@@ -33,10 +32,10 @@ void nvs_init(void) {
 
 }
 
-int16_t nvsReadI16(char *key ) {
+int32_t nvsReadI32(char *key ) {
 	//Reading parameters
-	int16_t value;
-	err = nvs_get_i16(my_handle, key, &value);
+	int32_t value;
+	err = nvs_get_i32(my_handle, key, &value);
 	switch (err) {
 		case ESP_OK:
 			//printf("wifi_ssid = %s\n", value);
@@ -56,9 +55,9 @@ int16_t nvsReadI16(char *key ) {
 }
 
 
-void nvsWriteI16(char *key, int16_t value ) {
+void nvsWriteI32(char *key, int32_t value ) {
 	//Writing parameters
-	err = nvs_set_i16(my_handle, key, value);
+	err = nvs_set_i32(my_handle, key, value);
 	if (err != ESP_OK) {
 		ESP_LOGI(NVS_TAG, "Set value failed for %s:%d", key, value);
 	}
@@ -78,10 +77,10 @@ void nvsWriteI16(char *key, int16_t value ) {
 
 void nvs_read_batch() {
 	for (int i=0; i<parameters_no; i++) {
-		int16_t value = nvsReadI16(key_name[i]);
+		int32_t value = nvsReadI32(key_name[i]);
 		if (value<0) {			//if error reading key name
 			ESP_LOGI(NVS_TAG, "error opening %s, now write default value", key_name[i]);
-			nvsWriteI16(key_name[i], default_value[i]);
+			nvsWriteI32(key_name[i], default_value[i]);
 		}
 		else {
 			switch(i) {

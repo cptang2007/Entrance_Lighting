@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>V:\Backup\workspace_cpp\DoorWay_LED\.README.md.html</title>
+<title>V:\Backup\workspace_cpp\Entrace_Lighting\.README.md.html</title>
 
 
 <style type="text/css">
@@ -644,19 +644,19 @@ function setDocumentScrollTop(ypos)
 <h2> <a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2> 
 <ul> 
  <li>OTA firmware update via browser upload.</li> 
- <li>Paratmeters configuration via web browser: 
+ <li>Parameters configuration via a web browser: 
   <ul> 
-   <li>Infra-Red Sesnors Detection Ranges.</li> 
+   <li>Infra-Red Sensors Detection Ranges.</li> 
    <li>Light-On Duration.</li> 
    <li>Light Intensity Trigger Level.</li> 
   </ul> </li> 
 </ul> 
 <h2> <a id="requirement" class="anchor" href="#requirement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirement</h2> 
 <ul> 
- <li>ESP32 Development Board, in this project I use <strong>NodeMCU-32s</strong>. You may need to change the PCB layout if you use other development board or chips</li> 
+ <li>ESP32 Development Board, in this project I use <strong>NodeMCU-32s</strong>. You may need to change the PCB layout if other development board is used.</li> 
  <li> <strong><a href="https://github.com/espressif/esp-idf/tree/release/v2.1">ESP-IDF v2.1</a></strong> - I use an older version of Espressif IoT Development Framework. You probably need to fix the codes if you use a newer version.</li> 
 </ul> 
-<h2> <a id="pins-used" class="anchor" href="#pins-used" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pins Used</h2> 
+<h2> <a id="pins-assignment" class="anchor" href="#pins-assignment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pins Assignment</h2> 
 <ul> 
  <li>IR Sensor Long_Range 1 (ADC1_CHANNEL_0)</li> 
  <li>IR Sensor Long_Range 2 (ADC1_CHANNEL_3)</li> 
@@ -670,11 +670,25 @@ function setDocumentScrollTop(ypos)
 <h2> <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2> 
 <ol> 
  <li>Setup ESP-IDF.</li> 
- <li>Flash the Firmware.</li> 
+ <li>The MCU will boot in <strong>SoftAP</strong> mode by default, make the following changes if you want to boot in <strong>STA mode</strong> (e.g. connect to your wireless router): 
+  <ul> 
+   <li>Change <strong>AP_STA</strong> to <strong>0</strong> in <strong>wifiFunction.h</strong> </li> 
+   <li>Modify the WiFi credentials <strong>WIFI_SSID</strong> &amp; <strong>WIFI_PASS</strong> in <strong>wifiFunction.h</strong>.</li> 
+  </ul> </li> 
+ <li>Save the changes, Build and Flash the Firmware.</li> 
  <li>Install the development board to the PCB.</li> 
- <li>Make sure the WiFi toggle switch is ON. Power on the PCB. <strong>WiFi cannot be switched on AFTER Power On</strong>.</li> 
- <li>Connect to the MCU via browser - <a href="http://192.168.10.1" rel="nofollow">http://192.168.10.1</a> in case AP mode, or goto its IP address in case STA mode.</li> 
- <li>Config the Parameters.</li> 
+ <li>Make sure the WiFi toggle switch is <strong>ON before Power up</strong>.</li> 
+ <li>Connect to the MCU 
+  <ul> 
+   <li>SoftAP mode - SSID: ESP32_Entrance_Lighting, Password: 11111111, go to <a href="http://192.168.10.1" rel="nofollow">http://192.168.10.1</a> </li> 
+   <li>STA mode - go to the IP address of the MCU. You may need to check it in your wireless router administration page.</li> 
+  </ul> </li> 
+ <li>Change the Parameters.</li> 
+ <li>Turn off the WiFi toggle button and restart the system, if all settings are done and You don't need WiFi setting anymore.</li> 
+</ol> 
+<h2> <a id="note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note</h2> 
+<ol> 
+ <li>In SoftAP mode, the connection will be unstable if the channel is already occupied by other 2.4GHz WiFi devices. Use another channel by modifying the value of <strong>CONFIG_AP_CHANNEL</strong> in <strong>wifiFunction.h</strong>. The default is channel 8.</li> 
 </ol>
 </body>
 </html>

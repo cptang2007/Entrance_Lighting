@@ -1,10 +1,3 @@
-/*
- * httpServer.h
- *
- *  Created on: 3 Feb, 2018
- *      Author: Administrator
- */
-
 #ifndef HTTPSERVER_H_
 #define HTTPSERVER_H_
 
@@ -18,7 +11,7 @@
 extern char VERSION[];
 extern char *key_name[];
 extern char *display_name[];
-extern int16_t PR_Trig, IR_Long_Trig, IR_Short_Trig,  CountDown;
+extern int32_t PR_Trig, IR_Long_Trig, IR_Short_Trig,  CountDown;
 extern int parameters_no;
 extern char JSON_message[60];
 

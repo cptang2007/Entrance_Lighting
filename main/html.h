@@ -35,8 +35,11 @@ const static char index_html_top1[] =
 			"\tdiv.title	  		{ margin-left: 1em; float: left; }\r\n"
 			"\tdiv.ver		  		{ margin-top: 1.4em;  margin-right: 1em; float: right; font-size: 0.75em; }\r\n"
 			"\tinput				{ padding-left: 0.3125em; padding-right: 0.3125em; }\r\n"
+			"\tinput[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }\r\n"	//disable the number input spin box
+			"\tinput[type=number]   { -moz-appearance:textfield;  width: 6em;}\r\n"																			//disable the number input spin box
+			"\tiframe				{ visibility: hidden;}\r\n"
 			"\tfooter				{ box-sizing: border-box; position: absolute; bottom: 0; width: 100%; padding-bottom:0.625em; }\r\n"
-			"\tbutton				{ width: 12.5em; padding-left: 0.3125em; padding-right: 0.3125em; padding-top: 0.125em; padding-bottom: 0.125em; margin-top: 1em; border: none; border-radius: 0.0625em; box-shadow: 0.18em 0.25em 0.125em 0.0625em rgba(0,0,0,0.4); background-color: #CDCDCD; }\r\n"
+			"\tbutton				{ width: 13em; padding-left: 0.125em; padding-right: 0.125em; padding-top: 0.125em; padding-bottom: 0.125em; margin-top: 1em; border: none; border-radius: 0.0625em; box-shadow: 0.18em 0.25em 0.125em 0.0625em rgba(0,0,0,0.4); background-color: #CDCDCD; }\r\n"
 			"\tbutton:active    	{ box-shadow: 0.18em 0.25em 0.125em 0.0625em rgba(0,0,0,0.6); transform: translateY(0.125em); }\r\n"
 			"\tdiv.table 			{ display: table; }\r\n"
 			"\tdiv.tr 				{ display: table-row; }\r\n"
@@ -133,8 +136,8 @@ const static char setting_html_top[] =
 		"<div class=\"heading\">\r\n"
 		"Parameters Setting\r\n"
 		"</div>\r\n"
-
 		"<BR><DIV class=\"content\">\r\n"
+		"<FORM onsubmit=\"updateTrigLevel()\" target=\"dummyframe\">"
 		"<div class=\"table\">\r\n"
 		"<div class=\"tr\">\r\n"
 		"\t<div class=\"td\"></div>\r\n"
@@ -145,14 +148,15 @@ const static char setting_html_top[] =
 const static char setting_html_down[] =
 		"<div class=\"tr\">\r\n"
 			"\t<div class=\"td\"></div>\r\n"
-			"\t<div class=\"td\" style=\"padding-top: 0.625em;\"><button style=\"width:7em;\" onclick=\"updateTrigLevel()\">Update</button></div>\r\n"
-			"\t<div class=\"td\" style=\"padding-top: 0.625em;\"><button style=\"width:7em;\" onclick=\"pollingControl()\" id=\"pollingButton\">Sensor Polling</button></div>\r\n"
+			"\t<div class=\"td\" style=\"padding-top: 0.625em;\"><button type=\"submit\" style=\"width:7em;\">Update</button></div>\r\n"
+			"\t<div class=\"td\" style=\"padding-top: 0.625em;\"><button type=\"button\" style=\"width:7em;\" onclick=\"pollingControl()\" id=\"pollingButton\">Sensor Polling</button></div>\r\n"
 		"</div>\r\n"
 		"</div>\r\n"
+		"</FORM>\r\n"
 		"</DIV>\r\n"
 
-		"<br><br><br><div id=\"upload_result\" style=\"color:#4CAF50;\"></div>";
-
+		"<br><br><br><div id=\"upload_result\" style=\"color:#4CAF50;\"></div>"
+		"<iframe width=\"0\" height=\"0\" border=\"0\" name=\"dummyframe\" id=\"dummyframe\"></iframe>";	//Dummy iframe used to redirect the form action
 		//"<button style=\"width:80px;\" onclick=\"updateTrigLevel()\">Update Trig Levels</button>\r\n"
 		//"<button style=\"width:80px;\" onclick=\"readSensorLoop()\">Sensor Reading</button>\r\n";
 
@@ -205,26 +209,25 @@ const static char http_basic_authentication[] =
 const char t1[]=	"<div class=\"tr\">\r\n"
 					"\t<div class=\"tdRowHead\">";
 const char t2[]=	"</div>\r\n"
-					"\t<div class=\"td\" style=\"text-align:center;\"><input type=\"text\" name=\"";
-const char t3[]=	"\" size=\"3\" value=\"";
+					"\t<div class=\"td\" style=\"text-align:center;\"><input type=\"number\" name=\"";
+const char t3[]=	"\" value=\"";
 
-const char t_a[]=	"\"></div>\r\n"
+const char t_a[]=	"\" min=\"0\" max=\"4095\"></div>\r\n"
 					"\t<div class=\"td\" style=\"color:#4CAF50;\" id=\"PR\"></div>\r\n"
 					"</div>\r\n";
-const char t_b[]=	"\"></div>\r\n"
+const char t_b[]=	"\" min=\"0\" max=\"4095\"></div>\r\n"
 					"\t<div class=\"td\" style=\"color:#4CAF50;\" id=\"IR_Long1\"></div>\r\n"
 					"</div>\r\n";
-const char t_c[]=	"\"></div>\r\n"
+const char t_c[]=	"\" min=\"0\" max=\"4095\"></div>\r\n"
 					"\t<div class=\"td\" style=\"color:#4CAF50;\" id=\"IR_Long2\"></div>\r\n"
 					"</div>\r\n";
-const char t_d[]=	"\"></div>\r\n"
+const char t_d[]=	"\" min=\"0\" max=\"4095\"></div>\r\n"
 					"\t<div class=\"td\" style=\"color:#4CAF50;\" id=\"IR_Short\"></div>\r\n"
 					"</div>\r\n";
-const char t_e[]=	"\"></div>\r\n"
+const char t_e[]=	"\" min=\"1000\" max=\"600000\"></div>\r\n"
 					"\t<div class=\"td\"></div>\r\n"
 					"</div>\r\n";
 
 const char CRLF[]="\r\n";
-const char JSON_message_DEMO[]="{ \"PR\":\"1498\", \"IR_Long1\":\"3819\", \"IR_Long2\":\"3589\", \"IR_Short\":\"1753\" }";
 const char JSON_message2[]="{ \"state\":\"Setting Updated\" }";
 #endif

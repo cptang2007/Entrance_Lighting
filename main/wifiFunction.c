@@ -9,9 +9,6 @@
 #include "wifiFunction.h"
 #include "sdkconfig.h"
 
-//AP
-//char AP_IP[] = "192.168.10.1";
-
 esp_err_t event_handler(void *ctx, system_event_t *event)
 {
     switch(event->event_id) {

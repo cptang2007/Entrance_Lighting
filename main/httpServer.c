@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -363,12 +362,13 @@ void HTTP_server_task(void *pvParameter) {
 							strcpy(temp, ptr);
 							ptr = strtok(NULL, "\n");
 						}
-						ESP_LOGI(HTTP_TAG, "Post Message 1st break: %s", temp);
+						//ESP_LOGI(HTTP_TAG, "Post Message 1st break: %s", temp);
+						ESP_LOGI(HTTP_TAG, "Post Message: %s", temp);
 
 						ptr = strtok(temp, "&"); //parse at &
 						while(ptr) { //while token was found
 							//printf(">> %s, %d\n", ptr, i);
-							ESP_LOGI(HTTP_TAG, "Post Message 2nd break[%d]: %s", i, ptr);
+							//ESP_LOGI(HTTP_TAG, "Post Message 2nd break[%d]: %s", i, ptr);
 							strcpy(temp2[i], ptr);
 							ptr = strtok(NULL, "&");
 							i++;
@@ -379,7 +379,7 @@ void HTTP_server_task(void *pvParameter) {
 							ptr = strtok(temp2[i], "="); //parse at =
 							while(ptr) { //while token was found
 								//printf(">>> %s, %d, %d\n", ptr, i, j);
-								ESP_LOGI(HTTP_TAG, "Post Message 3rd break[%d,%d]: %s", i, j, ptr);
+								//ESP_LOGI(HTTP_TAG, "Post Message 3rd break[%d,%d]: %s", i, j, ptr);
 								strcpy(data[i][j], ptr);
 								ptr = strtok(NULL, "=");
 								j++;
@@ -388,9 +388,10 @@ void HTTP_server_task(void *pvParameter) {
 
 						//Update setting
 						for (int i=0; i<parameters_no; i++) {
-							nvsWriteI16(data[i][0], (int16_t)atoi(data[i][1]));
+							nvsWriteI32(data[i][0], (int32_t)atoi(data[i][1]));
 						}
 						nvs_read_batch();//read the value into variable
+						prepareHTML();
 						ESP_LOGI(HTTP_TAG, "Setting Update done");
 						send(client_socket, json_header, sizeof(json_header)-1, 0);
 						send(client_socket, JSON_message2, strlen(JSON_message2), 0);

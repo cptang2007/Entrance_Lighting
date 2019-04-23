@@ -1,9 +1,14 @@
-/* DoorWay_LED_test18
+/* Entrance_Lighting
  *
- * Test Ver.18
- * Use ADC to read analogue voltages of IR range sensors
+ * ver. 1.01
+ * Change Parameter Data Type to int32_t as int16_t maxed at 65535
+ * Add Data Validation [based on HTML5 in browser] in Parameters Setting
+ * Update README.md
+ *
+ * ver. 1.00
+ * Use ADC to read voltages of IR range sensors and photoresistor
  * Use ADC to read wifi enable button response
- * Use http server (lwip/netconn) as testing, socket server for ota image upload
+ * Socket server for OTA firmware upload and parameters setting
  *
 */
 
@@ -47,7 +52,7 @@
 EventGroupHandle_t wifi_event_group;
 
 //Firmware Version
-char VERSION[]="1.00";
+char VERSION[]="1.01";
 
 //IR Setting
 bool IR_Power=false;
@@ -55,8 +60,8 @@ char *key_name[] = {"PR_Trig", "IR_Long1_Trig", "IR_Long2_Trig", "IR_Short_Trig"
 char *value_name[] = {"", "", "", "", ""};
 char *display_name[] = {"PhotoResistor [0 - 4095] :", "IR_Long1 [0 - 4095] :", "IR_Long2 [0 - 4095] :", "IR(Short) [0 - 4095] :", "Light On Time [ms] :"};
 
-int16_t PR_Trig=0, IR_Long1_Trig=0, IR_Long2_Trig=0, IR_Short_Trig=0,  CountDown=0;
-int default_value[] = {3500, 2700, 2700, 1500, 1500};
+int32_t PR_Trig=0, IR_Long1_Trig=0, IR_Long2_Trig=0, IR_Short_Trig=0,  CountDown=0;
+int32_t default_value[] = {150, 1850, 1850, 300, 1500};
 
 char JSON_message[60];
 
@@ -72,7 +77,7 @@ void ADC_Init() {
 	adc1_config_channel_atten(IRSensor_Long2, ADC_ATTEN_11db);	//Long Range IR sensor 2
 	adc1_config_channel_atten(IRSensor_Short, ADC_ATTEN_11db);	//Short Range IR sensor
 	adc1_config_channel_atten(PhotoResistor, ADC_ATTEN_11db);	//PhotoResistor
-	adc1_config_channel_atten(WIFI_Trigger, ADC_ATTEN_11db);	//PhotoResistor
+	adc1_config_channel_atten(WIFI_Trigger, ADC_ATTEN_11db);	//Check WiFi Enable or not
 }
 
 void GPIO_Init() {
@@ -164,12 +169,14 @@ void WIFI_task(void* arg) {
 
 	while(1) {
 		WIFI_button = adc1_get_voltage(WIFI_Trigger);
-		if (WIFI_button >=1800 && !WIFI_TRIG) {	//normally should be 4095 when button is triggered
+		if (WIFI_button >=1800 && !WIFI_TRIG) {
+
 			ESP_LOGI(WIFI_TAG, "WIFI Button ON");
 			WIFI_TRIG = true;
 
 			wifi_conn_init();
 
+			//Change AP_STA value in wifiFunction.h, 0 for STA mode and 1 for AP mode
 			if (AP_STA==0) {
 				STA_mode();
 			}
@@ -201,7 +208,7 @@ void app_main(void) {
 
 	nvs_write_str("VERSION", VERSION);
 	ESP_LOGI(SYS_TAG, "verion: %s", nvs_read_str("VERSION"));
-	esp_ota_init();
+	//esp_ota_init();
 	ADC_Init();
 	GPIO_Init();
 
