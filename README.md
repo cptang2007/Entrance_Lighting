@@ -22,7 +22,7 @@ This is the firmware for the Instructable [Automatic Entrance Lighting](https://
  * Sensor Power Pin 		GPIO_NUM_22
  * LED Lighting Power Pin	GPIO_NUM_21
  
- ![Reference](https://wiki.ai-thinker.com/_media/esp32/boards/nodemcu/nodemcu_32s_pin.png)
+ ![Reference](https://www.taiwaniot.com.tw/wp-content/uploads/2017/06/TB2416uotFopuFjSZFHXXbSlXXa_2922621297.png)
  
 ## How to use
   1. Setup ESP-IDF.
